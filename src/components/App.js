@@ -7,9 +7,11 @@ import AboutPage from "./aboutPage";
 import Home from "./Home";
 import NavBar from "./navBar";
 
+import map from "../images/map.jpg";
+
 const App = ({ favorites }) => {
   return (
-    <>
+    <div>
       <NavBar />
       <Switch>
         <Route exact path="/" component={Home} />
@@ -20,7 +22,7 @@ const App = ({ favorites }) => {
         />
         <Route exact path="/about-app" component={AboutPage} />
       </Switch>
-    </>
+    </div>
   );
 };
 
