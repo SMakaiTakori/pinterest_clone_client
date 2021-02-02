@@ -6,18 +6,19 @@ const NavBar = () => {
   return (
     <div>
       <ul id="nav">
-        <img
-          alt={logo}
-          src={logo}
-          style={{
-            float: "left",
-            width: "60px",
-            height: "60px",
-            paddingTop: "10px",
-          }}
-        />
-        <h1 style={{ color: "#E60023" }}>
-          Clone
+        <div>
+          <img
+            alt={logo}
+            src={logo}
+            style={{
+              float: "left",
+              height: "60px",
+              paddingTop: "10px",
+            }}
+          />
+          <h2 style={{ color: "#E60023", paddingTop: "10px" }}>Clone</h2>
+        </div>
+        <h2>
           <li>
             <NavLink exact to="/pins">
               {" "}
@@ -36,7 +37,7 @@ const NavBar = () => {
               Home{" "}
             </NavLink>
           </li>
-        </h1>
+        </h2>
       </ul>
     </div>
   );

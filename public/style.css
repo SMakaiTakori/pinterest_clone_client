@@ -27,8 +27,7 @@ body {
 }
 
 .search-bar {
-  /* border-radius: 50%; */
-  width: 30em;
+  width: 22em;
 }
 
 .margin-container {
@@ -40,15 +39,14 @@ body {
   text-align: center;
 }
 
-/* .categories {
-  margin-left: 40% !important;
-} */
-
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .like-button {
   color: #e60023;
 }
+
+@media;
