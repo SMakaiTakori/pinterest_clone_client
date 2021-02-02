@@ -6,7 +6,7 @@ import Card from "react-bootstrap/Card";
 const DisplayFavorites = ({ favorites }) => {
   return (
     <div>
-      <Container>
+      <Container className="center">
         <h1>Your Pins</h1>
         <br />
         {favorites.map((fav) => (

@@ -26,6 +26,8 @@ body {
   border-right: 1px solid #ccc;
 }
 
+/* Home Page */
+
 .search-bar {
   width: 22em;
 }
@@ -39,14 +41,16 @@ body {
   text-align: center;
 }
 
+/* Categories Section */
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
+/* Images  */
+
 .like-button {
   color: #e60023;
 }
-
-@media;
