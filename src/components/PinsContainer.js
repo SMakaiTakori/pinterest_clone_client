@@ -18,7 +18,7 @@ const PinsContainer = ({ selected, fetchPins, postQuery }) => {
   const handleSearch = (e) => {
     e.preventDefault();
     console.log("a");
-    postQuery(query);
+    postQuery(query.charAt(0).toUpperCase() + query.slice(1));
     console.log("g");
     fetchPins(query);
   };

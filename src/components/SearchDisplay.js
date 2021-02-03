@@ -5,7 +5,7 @@ import { fetchQueries } from "../actions/queriesActions";
 import { fetchPins } from "../actions/pinsActions";
 
 export const SearchDisplay = ({ fetchPins, queries }) => {
-  const qArray = queries.slice(1).slice(-5);
+  const qArray = queries.slice(1).slice(-6);
 
   return (
     <div className="center">
