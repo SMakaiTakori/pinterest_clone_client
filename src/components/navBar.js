@@ -18,7 +18,7 @@ const NavBar = () => {
         />
         <h2 style={{ color: "#E60023", paddingTop: "15px" }}>Clone</h2>
 
-        <h2>
+        <h3>
           <li>
             <NavLink exact to="/pins">
               {" "}
@@ -37,7 +37,7 @@ const NavBar = () => {
               Home{" "}
             </NavLink>
           </li>
-        </h2>
+        </h3>
       </ul>
     </div>
   );
